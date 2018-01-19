@@ -1,44 +1,27 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
+image: images/thebus-square.png
+title: TheBus Transit Tracker
+permalink: projects/thebus
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2015-12-01
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - TheBus
+  - Oahu Transit Services
+  - js
+  - Node.js
+  - html5
+summary: I developed a mobile-first web application intended to replace the current City & County of Honolulu "DaBus" and "DaBus2" mobile apps. This application uses the OTS TransitMaster API and OTS provided GTFS data to present realtime tracking information for TheBus vehicles.
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/thebus-sample-1.png">
+  <img class="ui image" src="../images/thebus-sample-2.png">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+When I started this project, the City & County of Honolulu had a published mobile application in both the Apple App Store and the Google Play Store, named DaBus. This was the "official" native mobile app for tracking busses. After having used the app for a while, I found some "quirks" with the app that I felt needed fixing. For example, if you didn't know the numerical ID of a stop, and wanted to find it on the app using its name (using the names of the streets that the stop is on), it did not work well at all. The best way to find a stop was to type the first few letters of the street it was on. For example, if I wanted to find the stop on King St and Punchbowl St, searching for "king" and scrolling through the 100+ stops it returned to find the one I wanted was the only way to find it. Typing "S KING ST + PUNCHBOWL ST" (the actual name of the stop) yielded no results. Also, while DaBus allowed users to add favorite stops, it did not allow users to give those stops nicknames. These reasons, among others, inspired me to create my own transit tracking app.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+I am the sole developer of this project. I am responsible for creating all of the icons used, the back-end, and the front-end client design. The back-end is built in JavaScript using Node.js. The front-end is dynamically generated using an object-oriented approach of classes of objects. I avoided using jQuery, so this front-end is powered by a simple framework that I created, called CommonLib.
 
-Here is some code that illustrates how we read values from the line sensors:
-
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
-
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
-
-
-
+You can check out a public version of the project at https://thebusapp.herokuapp.com/.
