@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/winston-square.png
 title: Discord Bot (Winston)
-permalink: projects/cassandra
+permalink: projects/winston
 # All dates must be YYYY-MM-DD format!
 date: 2017-10-15
 labels:
