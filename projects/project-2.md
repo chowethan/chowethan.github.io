@@ -1,25 +1,24 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+image: images/winston-square.png
+title: Discord Bot (Winston)
+permalink: projects/cassandra
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2017-10-15
 labels:
   - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - Node.js
+  - discord.io
+  - Discord
+summary: An all-purpose Discord bot in-development for eventual public use in any Discord server.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<div class="ui medium rounded images">
+  <img class="ui image" src="../images/winston-sample-1.png">
+  <img class="ui image" src="../images/winston-sample-2.png">
+</div>
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+Winston is a Discord bot written in JavaScript and utilizing the discord.js library. I started developing this bot as a replacement for another Discord bot that I wrote that utilized the discord.io library. However, I had been wanted to re-write the bot for a while now, and just recently, discord.io has been deprecated until it supports the newest Discord gateway version, v6. As such, the old Discord bot does not function correctly. This change has forced me to start writing this new bot.
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
-
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
- 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+This bot is being written in modern JavaScript, making full use of ECMAScript 6 class constructs, Promises, and the let and const keywords. Modularity was the key concept in this bot, so commands have been separated in to separate command "modules" that can be enabled/disabled on a per-server basis.
