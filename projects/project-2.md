@@ -9,7 +9,7 @@ date: 2017-10-15
 labels:
   - Javascript
   - Node.js
-  - discord.io
+  - discord.js
   - Discord
 summary: An all-purpose Discord bot in-development for eventual public use in any Discord server.
 ---
