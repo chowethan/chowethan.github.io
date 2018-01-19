@@ -12,7 +12,7 @@ labels:
   - js
   - Node.js
   - html5
-summary: I developed a mobile-first web application intended to replace the current City & County of Honolulu "DaBus" and "DaBus2" mobile apps. This application uses the OTS TransitMaster API and OTS provided GTFS data to present realtime tracking information for TheBus vehicles.
+summary: A mobile-first web application intended to replace the current City & County of Honolulu "DaBus" and "DaBus2" mobile apps. This application presents realtime tracking information for TheBus vehicles.
 ---
 
 <div class="ui small rounded images">
@@ -22,6 +22,6 @@ summary: I developed a mobile-first web application intended to replace the curr
 
 When I started this project, the City & County of Honolulu had a published mobile application in both the Apple App Store and the Google Play Store, named DaBus. This was the "official" native mobile app for tracking busses. After having used the app for a while, I found some "quirks" with the app that I felt needed fixing. For example, if you didn't know the numerical ID of a stop, and wanted to find it on the app using its name (using the names of the streets that the stop is on), it did not work well at all. The best way to find a stop was to type the first few letters of the street it was on. For example, if I wanted to find the stop on King St and Punchbowl St, searching for "king" and scrolling through the 100+ stops it returned to find the one I wanted was the only way to find it. Typing "S KING ST + PUNCHBOWL ST" (the actual name of the stop) yielded no results. Also, while DaBus allowed users to add favorite stops, it did not allow users to give those stops nicknames. These reasons, among others, inspired me to create my own transit tracking app.
 
-I am the sole developer of this project. I am responsible for creating all of the icons used, the back-end, and the front-end client design. The back-end is built in JavaScript using Node.js. The front-end is dynamically generated using an object-oriented approach of classes of objects. I avoided using jQuery, so this front-end is powered by a simple framework that I created, called CommonLib.
+I am the sole developer of this project. I am responsible for creating all of the icons used, the back-end, and the front-end client design. The back-end is built in JavaScript using Node.js. The front-end is dynamically generated using an object-oriented approach of classes of objects. I avoided using jQuery, so this front-end is powered by a simple framework that I created, called CommonLib. This application uses the public OTS TransitMaster API and OTS-provided GTFS (General Transit Feed Specification) data to present realtime vehicle tracking and arrival data.
 
 You can check out a public version of the project at https://thebusapp.herokuapp.com/.
