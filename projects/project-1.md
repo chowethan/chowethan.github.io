@@ -14,7 +14,7 @@ labels:
   - socket.io
   - html5
   - css3
-summary: A mobile-first web application intended to replace the current City & County of Honolulu "DaBus" and "DaBus2" mobile apps. This application presents realtime tracking information for TheBus vehicles.
+summary: A mobile-first web application intended to replace the current official "DaBus" and "DaBus2" mobile apps. This application presents realtime tracking information for TheBus vehicles.
 ---
 
 <div class="ui medium rounded images">
