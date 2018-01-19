@@ -15,7 +15,7 @@ labels:
 summary: A mobile-first web application intended to replace the current City & County of Honolulu "DaBus" and "DaBus2" mobile apps. This application presents realtime tracking information for TheBus vehicles.
 ---
 
-<div class="ui small rounded images">
+<div class="ui medium rounded images">
   <img class="ui image" src="../images/thebus-sample-1.png">
   <img class="ui image" src="../images/thebus-sample-2.png">
 </div>
