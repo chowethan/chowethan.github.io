@@ -47,15 +47,8 @@ a {
   color: #0E95F5;
 }
 
-// Customize the appearance of `text`
-code {
-  padding: 1px 3px;
-  background: rgba(255,255,255,0.4);
-  border: 1px solid rgba(0,0,0,0.2);
-  border-radius: 2px;
-}
-
-// Customize the appearance of code blocks
+// Customize the appearance of inline code snippets and code blocks
+code,
 pre {
   padding: 1px 3px;
   background: rgba(255,255,255,0.4);
