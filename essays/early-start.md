@@ -21,4 +21,4 @@ By fifth grade, I was well versed in using both OSX and Windows computers (and t
 
 In middle school, I wanted to know how to automate basic actions. Through many hours of using Google and Stack overflow, I was able to learn some AppleScript, a small scripting language only available on Macs. Through this experience, I learned the basic concept of the "if" and "if-else" statements.  I also gained an interest in websites, and so I learned the basics of HTML and CSS which I thought was really neat. However, plain HTML didn't allow me to create dynamic content on the page, so I learned JavaScript and PHP.
 
-These two learning experiences really launched me into the field of computer science.
+These two learning experiences really launched me into the field of computer science. From that point, mostly through the use of reading example code online and using StackOverflow to find answers to commonly asked questions, I was able to teach myself Java, Lua, C#, C, and even familiarized myself with C pointers. Without any of these experiences, I wouldn't be anywhere near the point that I am at today.
