@@ -5,7 +5,12 @@ title: An Early Start
 # All dates must be YYYY-MM-DD format!
 date: 2018-01-17
 labels:
-  - Learning
+  - Learning
+  - AppleScript
+  - HTML
+  - CSS
+  - JavaScript
+  - PHP
 ---
 
 Ever since I was a child, I have been surrounded by technology. In my elementary school, technology was prevalent. The third through sixth grade classes all had several Apple Mac desktops which we shared to do work on. We also regularly had a computer lab class that gave us fundamental experience with computers. I distinctly remember learning about how to use a zip drive, typing and doing art projects in AppleWorks, and playing around in Kid Pix. At home, we had a couple Windows desktops that I could use to play games on and do homework.
