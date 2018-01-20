@@ -13,6 +13,28 @@ body {
 // Customize the menubar color
 .ui.menu {
   // background: $background-start;
+  background: #2e90f5;
+}
+
+// Customize the text color of links in the menu bar
+.ui.menu .item {
+  color: rgba(255,255,255,.87);
+}
+
+.ui.menu .active.item {
+  color: rgba(255,255,255,.95);
+}
+
+.ui.link.menu .item:hover,
+.ui.menu .dropdown.item:hover,
+.ui.menu .link.item:hover,
+.ui.menu a.item:hover {
+  color: rgba(255,255,255,.95);
+}
+
+.ui.menu .active.item:hover,
+.ui.vertical.menu .active.item:hover {
+  color: rgba(255,255,255,.95);
 }
 
 // Customize the home page icon colors
@@ -20,3 +42,18 @@ body {
   // color: silver;
 }
 
+// Customize the appearance of `text`
+.code {
+  padding: 1px 3px;
+  background: rgba(255,255,255,0.4);
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 2px;
+}
+
+// Customize the appearance of code blocks
+pre {
+  padding: 1px 3px;
+  background: rgba(255,255,255,0.4);
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 3px;
+}
