@@ -91,16 +91,6 @@
   ],
   "work": [
     {
-      "company": "Honolulu Community College Summer Engineering Academy",
-      "position": "Peer Mentor",
-      "website": "https://www.honolulu.hawaii.edu/robotics",
-      "startDate": "2016-06-06",
-      "endDate": "2016-07-29",
-      "summary": "Worked as a peer mentor to help high school students in the electrical engineering class. Assisted students with learning electronics concepts and their various projects.",
-      "highlights": [
-      ]
-    },
-    {
       "company": "",
       "position": "Private Tutor",
       "website": "",
@@ -116,12 +106,13 @@
       "company": "Honolulu Community College Summer Engineering Academy",
       "position": "Peer Mentor",
       "website": "https://www.honolulu.hawaii.edu/robotics",
-      "startDate": "2017-06-13",
+      "startDate": "2016-06-06",
       "endDate": "2017-07-21",
       "summary": "Worked as a peer mentor to help high school students in the electrical engineering class. Assisted students with learning electronics concepts and their various projects.",
       "highlights": [
+        "Worked only during June and July of each year"
       ]
-    },
+    }
   ],
   "volunteer": [
     {
