@@ -10,6 +10,8 @@ labels:
   - ESLint
 ---
 
+<img class="ui small left floated image" src="../images/eslint.svg">
+
 Code linters are a popular choice for many people. These tools allow people to constantly "lint" code as it is written, checking for possible errors and making sure that it adheres to the style standard. A linter can seem like an absolute must-have, especially when working in groups, because it can make sure that everyone's code remains fairly consistent. However, despite their obvious utility, can they become a consistent pain in the neck?
 
 ESLint, along with JSHint and JSLint, are all popular linting tools for JavaScript. Many of these can be run in IDEs (integrated development environment), checking and re-checking code after every little change that is made, allowing users to constantly keep their code in check. They can make sure that all of your braces are put in the right place, make sure that everything is indented ever so nicely, and ensure the placement of a spaces between operators and keywords.
